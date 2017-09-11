@@ -386,12 +386,18 @@ PlayableDirector:
   m_GameObject: {fileID: 1380455061}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
+  m_PlayableAsset: {fileID: 11400000, guid: edd22bec941c534459462efdcca514d2, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 114253541556223358, guid: edd22bec941c534459462efdcca514d2, type: 2}
+    value: {fileID: 1787971438}
+  - key: {fileID: 114100662261344946, guid: edd22bec941c534459462efdcca514d2, type: 2}
+    value: {fileID: 589710920}
+  - key: {fileID: 114369774319654896, guid: edd22bec941c534459462efdcca514d2, type: 2}
+    value: {fileID: 1662902431}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1380455063
@@ -520,7 +526,6 @@ GameObject:
   - component: {fileID: 1787971440}
   - component: {fileID: 1787971439}
   - component: {fileID: 1787971444}
-  - component: {fileID: 1787971443}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -592,28 +597,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &1787971443
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1787971438}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: edd22bec941c534459462efdcca514d2, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 114253541556223358, guid: edd22bec941c534459462efdcca514d2, type: 2}
-    value: {fileID: 1787971438}
-  - key: {fileID: 114100662261344946, guid: edd22bec941c534459462efdcca514d2, type: 2}
-    value: {fileID: 589710920}
-  - key: {fileID: 114369774319654896, guid: edd22bec941c534459462efdcca514d2, type: 2}
-    value: {fileID: 1662902431}
-  m_ExposedReferences:
-    m_References: []
 --- !u!95 &1787971444
 Animator:
   serializedVersion: 3
